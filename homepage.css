@@ -1,0 +1,61 @@
+.notes{
+    padding: 0.25rem;
+    max-width: 15rem;
+    max-height: 20rem;
+    background-color: var(--background-color);
+    border-radius: var(--xs);
+    padding: var(--xs);
+    margin: var(--xs);
+}
+
+.notes-container{
+    background-color: var(--grey-100);
+    padding: var(--sm);
+    border-radius: var(--xs);
+    box-sizing: border-box;
+}
+
+.notes-head{
+    padding: 0.25rem var(--xs);
+    border-bottom: 1px solid var(--dark-grey);
+}
+
+.notes-content{
+    padding: 0.25rem var(--xs);
+    font-size: 0.8rem;
+    padding-bottom: 0;
+}
+
+.notes-list-item{
+    margin: 0.25rem;
+    padding: var(--xs);
+    cursor: pointer;
+    background-color: var(--background-color);
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+.notes-list{
+    width: 90%;
+    box-sizing: border-box;
+}
+
+.new-note-input-head{
+    outline: none;
+    border: 1px solid var(--dark-grey);
+    padding: 0.25rem var(--xs);
+    margin: var(--xs);
+    border-radius: 0.25rem;
+}
+
+.new-note-input-body{
+    outline: none;
+    border: 1px solid var(--dark-grey);
+    padding: 0.25rem var(--xs);
+    margin: var(--xs);
+    border-radius: 0.25rem;
+    min-width: 15rem;
+    min-height: 10rem;
+    resize: none;
+}
